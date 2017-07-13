@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeClient", "MetOfficeClient\MetOfficeClient.csproj", "{EE3B3562-3862-4D49-90CF-618E1B05B201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeServer", "MetOfficeServer\MetOfficeServer.csproj", "{34000257-D5C9-45F6-88CC-F53016D752A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AC49F063-DFBE-435F-8BFA-B72A316FAD88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeClientTests", "MetOfficeClientTests\MetOfficeClientTests.csproj", "{DA599CAE-DD46-4B1F-B89A-86A2347322BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE3B3562-3862-4D49-90CF-618E1B05B201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3B3562-3862-4D49-90CF-618E1B05B201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3B3562-3862-4D49-90CF-618E1B05B201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3B3562-3862-4D49-90CF-618E1B05B201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34000257-D5C9-45F6-88CC-F53016D752A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34000257-D5C9-45F6-88CC-F53016D752A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34000257-D5C9-45F6-88CC-F53016D752A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34000257-D5C9-45F6-88CC-F53016D752A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA599CAE-DD46-4B1F-B89A-86A2347322BD} = {AC49F063-DFBE-435F-8BFA-B72A316FAD88}
+	EndGlobalSection
+EndGlobal
