@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MetOfficeServer.Controllers
+namespace Met.Server.Controllers
 {
     public class HomeController : Controller
     {

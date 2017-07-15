@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using MetOfficeServer.Areas.HelpPage.ModelDescriptions;
-using MetOfficeServer.Areas.HelpPage.Models;
+using Met.Server.Areas.HelpPage.ModelDescriptions;
+using Met.Server.Areas.HelpPage.Models;
 
-namespace MetOfficeServer.Areas.HelpPage.Controllers
+namespace Met.Server.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

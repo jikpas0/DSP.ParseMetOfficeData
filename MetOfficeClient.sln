@@ -1,15 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeClient", "MetOfficeClient\MetOfficeClient.csproj", "{EE3B3562-3862-4D49-90CF-618E1B05B201}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Met.Client", "MetOfficeClient\Met.Client.csproj", "{EE3B3562-3862-4D49-90CF-618E1B05B201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeServer", "MetOfficeServer\MetOfficeServer.csproj", "{34000257-D5C9-45F6-88CC-F53016D752A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Met.Server", "MetOfficeServer\Met.Server.csproj", "{34000257-D5C9-45F6-88CC-F53016D752A1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AC49F063-DFBE-435F-8BFA-B72A316FAD88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeClientTests", "MetOfficeClientTests\MetOfficeClientTests.csproj", "{DA599CAE-DD46-4B1F-B89A-86A2347322BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetOfficeClient.Tests", "MetOfficeClientTests\MetOfficeClient.Tests.csproj", "{DA599CAE-DD46-4B1F-B89A-86A2347322BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Met.Models", "Met.Models\Met.Models.csproj", "{37EC5E56-C298-4C15-8547-05FC9A022FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Met.Service", "Met.Service\Met.Service.csproj", "{C9E5F4A5-DD84-4740-AE01-051FD090EB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Met.Repository", "Met.Repository\Met.Repository.csproj", "{4F9AA9AC-D6B8-4F63-9F84-1F0EAC6F6AD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{F459B21E-D407-4EC9-80A1-71EDFB304D10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,11 +37,24 @@ Global
 		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA599CAE-DD46-4B1F-B89A-86A2347322BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EC5E56-C298-4C15-8547-05FC9A022FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EC5E56-C298-4C15-8547-05FC9A022FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EC5E56-C298-4C15-8547-05FC9A022FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EC5E56-C298-4C15-8547-05FC9A022FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E5F4A5-DD84-4740-AE01-051FD090EB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E5F4A5-DD84-4740-AE01-051FD090EB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E5F4A5-DD84-4740-AE01-051FD090EB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E5F4A5-DD84-4740-AE01-051FD090EB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9AA9AC-D6B8-4F63-9F84-1F0EAC6F6AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9AA9AC-D6B8-4F63-9F84-1F0EAC6F6AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9AA9AC-D6B8-4F63-9F84-1F0EAC6F6AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9AA9AC-D6B8-4F63-9F84-1F0EAC6F6AD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{34000257-D5C9-45F6-88CC-F53016D752A1} = {F459B21E-D407-4EC9-80A1-71EDFB304D10}
 		{DA599CAE-DD46-4B1F-B89A-86A2347322BD} = {AC49F063-DFBE-435F-8BFA-B72A316FAD88}
 	EndGlobalSection
 EndGlobal

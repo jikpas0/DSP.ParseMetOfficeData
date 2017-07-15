@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace MetOfficeServer.Controllers
+namespace Met.Server.Controllers
 {
     public class ValuesController : ApiController
     {

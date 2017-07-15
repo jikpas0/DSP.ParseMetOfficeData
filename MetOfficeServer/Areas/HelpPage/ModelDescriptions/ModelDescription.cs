@@ -1,6 +1,6 @@
 using System;
 
-namespace MetOfficeServer.Areas.HelpPage.ModelDescriptions
+namespace Met.Server.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

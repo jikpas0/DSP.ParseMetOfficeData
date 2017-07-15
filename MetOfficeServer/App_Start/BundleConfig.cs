@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace MetOfficeServer
+namespace Met.Server
 {
     public class BundleConfig
     {

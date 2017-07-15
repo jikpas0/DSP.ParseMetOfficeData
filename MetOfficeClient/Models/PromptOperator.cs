@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MetOfficeClient.Models
+namespace Met.Client.Models
 {
     public class PromptOperator
     {

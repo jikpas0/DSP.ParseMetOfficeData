@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MetOfficeClient.Models;
+using Met.Client.Models;
 using NUnit.Framework;
 
-namespace MetOfficeClientTests
+namespace MetOfficeClient.Tests
 {
     [TestFixture]
     public class StreamReaderTests

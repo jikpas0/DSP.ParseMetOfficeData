@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using MetOfficeServer.Areas.HelpPage.ModelDescriptions;
+using Met.Server.Areas.HelpPage.ModelDescriptions;
 
-namespace MetOfficeServer.Areas.HelpPage.Models
+namespace Met.Server.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

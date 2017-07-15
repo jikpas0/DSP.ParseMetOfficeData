@@ -6,14 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.SqlServer.Server;
 
-namespace MetOfficeClient.Models
+namespace Met.Client.Models
 {
     public class FileReadAndParse
     {
         public List<string> HeaderColumnValues { get; set; }
         public List<string> DataColumnValues { get; set; }
 
-        private StreamReader _reader = File.OpenText("../../DataSource/heathrowdata.txt");
+        private StreamReader _reader = File.OpenText("../../MockDataSource/heathrowdata.txt");
 
         public string ReadTextFile()
         {

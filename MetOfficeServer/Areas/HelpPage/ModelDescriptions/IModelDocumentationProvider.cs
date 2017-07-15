@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace MetOfficeServer.Areas.HelpPage.ModelDescriptions
+namespace Met.Server.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

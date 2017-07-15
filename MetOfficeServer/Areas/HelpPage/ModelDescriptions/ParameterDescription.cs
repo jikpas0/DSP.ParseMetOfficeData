@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace MetOfficeServer.Areas.HelpPage.ModelDescriptions
+namespace Met.Server.Areas.HelpPage.ModelDescriptions
 {
     public class ParameterDescription
     {
